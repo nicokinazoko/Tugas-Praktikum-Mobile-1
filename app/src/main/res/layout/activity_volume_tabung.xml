@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolumeTabung">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/TextViewHitungVolumeTabung"
+        android:text="Hitung Volume Tabung"
+
+        android:textAlignment="center"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/JariJariTabung"
+        android:hint="Jari-Jari Tabung"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/TinggiTabung"
+        android:hint="Tinggi Tabung"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/ButtonHitungVolumeTabung"
+        android:hint="HITUNG VOLUME"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/TextViewHasilVolumeTabung"
+        android:textAlignment="center"
+
+        android:textSize="40dp"
+        android:text="0.0"
+
+        />
+</LinearLayout>
